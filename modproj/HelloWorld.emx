@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
   <uml:Package xmi:id="_l6iBQFxiEeOUK-Y0k6JOKw" name="HelloWorld">
+    <eAnnotations xmi:id="_8skjwFxkEeOUK-Y0k6JOKw" source="com.ibm.xtools.uml.msl.fragments">
+      <references xmi:type="uml:Package" href="ModelFragment_1.efx#_wMl1AFxkEeOUK-Y0k6JOKw?HelloWorld/Package1?"/>
+      <references xmi:type="uml:Package" href="ModelFragment_2.efx#_zIKOQFxkEeOUK-Y0k6JOKw?HelloWorld/Package2?"/>
+    </eAnnotations>
     <eAnnotations xmi:id="_l6iBQVxiEeOUK-Y0k6JOKw" source="uml2.diagrams" references="_l6iBQlxiEeOUK-Y0k6JOKw">
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_l6iBQlxiEeOUK-Y0k6JOKw" type="Class" name="Main">
         <element xsi:nil="true"/>
@@ -99,6 +103,8 @@ context()->abort();</body>
         </region>
       </ownedBehavior>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" href="ModelFragment_1.efx#_wMl1AFxkEeOUK-Y0k6JOKw?HelloWorld/Package1?"/>
+    <packagedElement xmi:type="uml:Package" href="ModelFragment_2.efx#_zIKOQFxkEeOUK-Y0k6JOKw?HelloWorld/Package2?"/>
     <profileApplication xmi:id="_l6iBb1xiEeOUK-Y0k6JOKw">
       <eAnnotations xmi:id="_l6iBcFxiEeOUK-Y0k6JOKw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
