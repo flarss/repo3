@@ -96,7 +96,7 @@
             </eAnnotations>
             <effect xmi:type="uml:OpaqueBehavior" xmi:id="_mG2mAFxiEeOUK-Y0k6JOKw" name="Initial">
               <language>C++</language>
-              <body>log.log(&quot;Hello World from C++ Capsule&quot;);
+              <body>log.log(&quot;Hello World from C++ Balle&quot;);
 context()->abort();</body>
             </effect>
           </transition>
