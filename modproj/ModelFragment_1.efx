@@ -32,7 +32,7 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_T86NUF2PEeO8vMUdmvtyog" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_T860YF2PEeO8vMUdmvtyog" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_T860YV2PEeO8vMUdmvtyog" visible="false" type="StructureCompartment"/>
-        <element xmi:type="uml:Class" href="ModelFragment_2.efx#_sOmVcFxkEeOUK-Y0k6JOKw?HelloWorld/Package2/Class2?"/>
+        <element xmi:type="uml:Class" href="ModelFragment_2.efx#_sOmVcFxkEeOUK-Y0k6JOKw?HelloWorld/Package2/Miffo?"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T8174V2PEeO8vMUdmvtyog" x="16033" y="3624"/>
       </children>
       <element xsi:nil="true"/>
@@ -78,9 +78,9 @@
       </edges>
     </contents>
   </eAnnotations>
-  <packagedElement xmi:type="uml:Class" xmi:id="_rCqGwFxkEeOUK-Y0k6JOKw" name="Class11">
+  <packagedElement xmi:type="uml:Class" xmi:id="_rCqGwFxkEeOUK-Y0k6JOKw" name="Class10">
     <ownedAttribute xmi:id="_V49DQF2PEeO8vMUdmvtyog" name="class2" visibility="private" aggregation="composite" association="_V4uZwF2PEeO8vMUdmvtyog">
-      <type xmi:type="uml:Class" href="ModelFragment_2.efx#_sOmVcFxkEeOUK-Y0k6JOKw?HelloWorld/Package2/Class2?"/>
+      <type xmi:type="uml:Class" href="ModelFragment_2.efx#_sOmVcFxkEeOUK-Y0k6JOKw?HelloWorld/Package2/Miffo?"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V5Dw8F2PEeO8vMUdmvtyog" value="*"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V5DJ4F2PEeO8vMUdmvtyog"/>
     </ownedAttribute>
