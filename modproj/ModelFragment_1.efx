@@ -8,7 +8,7 @@
   </eAnnotations>
   <eAnnotations xmi:id="_wMnqMFxkEeOUK-Y0k6JOKw" source="uml2.diagrams" references="_wMoRQFxkEeOUK-Y0k6JOKw">
     <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wMoRQFxkEeOUK-Y0k6JOKw" type="Freeform" name="Main">
-      <children xmi:type="umlnotation:UMLShape" xmi:id="_ThYH4F2PEeO8vMUdmvtyog" element="_rCqGwFxkEeOUK-Y0k6JOKw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_ThYH4F2PEeO8vMUdmvtyog" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_ThZWAF2PEeO8vMUdmvtyog" type="ImageCompartment">
           <layoutConstraint xmi:type="notation:Size" xmi:id="_ThZWAV2PEeO8vMUdmvtyog" width="1320" height="1320"/>
         </children>
@@ -19,6 +19,7 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_ThbLMV2PEeO8vMUdmvtyog" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_ThbyQF2PEeO8vMUdmvtyog" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ThcZUF2PEeO8vMUdmvtyog" visible="false" type="StructureCompartment"/>
+        <element xmi:type="uml:Class" href="ModelFragment_2.efx#_rCqGwFxkEeOUK-Y0k6JOKw?HelloWorld/Package2/Class11?"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ThYH4V2PEeO8vMUdmvtyog" x="6535" y="3175"/>
       </children>
       <children xmi:type="umlnotation:UMLShape" xmi:id="_T8174F2PEeO8vMUdmvtyog" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -32,63 +33,59 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_T86NUF2PEeO8vMUdmvtyog" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_T860YF2PEeO8vMUdmvtyog" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_T860YV2PEeO8vMUdmvtyog" visible="false" type="StructureCompartment"/>
-        <element xmi:type="uml:Class" href="ModelFragment_2.efx#_sOmVcFxkEeOUK-Y0k6JOKw?HelloWorld/Package2/Class2?"/>
+        <element xmi:type="uml:Class" href="ModelFragment_2.efx#_sOmVcFxkEeOUK-Y0k6JOKw?HelloWorld/Package2/Miffo?"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T8174V2PEeO8vMUdmvtyog" x="16033" y="3624"/>
       </children>
       <element xsi:nil="true"/>
-      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_V5iSEF2PEeO8vMUdmvtyog" element="_V4uZwF2PEeO8vMUdmvtyog" source="_ThYH4F2PEeO8vMUdmvtyog" target="_T8174F2PEeO8vMUdmvtyog" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_V5iSEF2PEeO8vMUdmvtyog" source="_ThYH4F2PEeO8vMUdmvtyog" target="_T8174F2PEeO8vMUdmvtyog" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_V5i5IF2PEeO8vMUdmvtyog" type="NameLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_V5jgMF2PEeO8vMUdmvtyog" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_V5jgMV2PEeO8vMUdmvtyog" type="Name"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V5i5IV2PEeO8vMUdmvtyog" y="-186"/>
         </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_V5kuUF2PEeO8vMUdmvtyog" type="ToMultiplicityLabel" element="_V5FmIF2PEeO8vMUdmvtyog">
+        <children xmi:type="notation:DecorationNode" xmi:id="_V5kuUF2PEeO8vMUdmvtyog" type="ToMultiplicityLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_V5kuUl2PEeO8vMUdmvtyog" type="ToMultiplicity"/>
+          <element xmi:type="uml:Property" href="ModelFragment_2.efx#_V5FmIF2PEeO8vMUdmvtyog?HelloWorld/Package2/%3CAssociation%3E/%3CProperty%3E?"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_V5kuUV2PEeO8vMUdmvtyog" y="396"/>
         </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_V5lVYF2PEeO8vMUdmvtyog" type="ToRoleLabel" element="_V5FmIF2PEeO8vMUdmvtyog">
+        <children xmi:type="notation:DecorationNode" xmi:id="_V5lVYF2PEeO8vMUdmvtyog" type="ToRoleLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_V5lVYl2PEeO8vMUdmvtyog" type="ToRole"/>
+          <element xmi:type="uml:Property" href="ModelFragment_2.efx#_V5FmIF2PEeO8vMUdmvtyog?HelloWorld/Package2/%3CAssociation%3E/%3CProperty%3E?"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_V5lVYV2PEeO8vMUdmvtyog" y="-397"/>
         </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_V5lVY12PEeO8vMUdmvtyog" type="FromMultiplicityLabel" element="_V49DQF2PEeO8vMUdmvtyog">
+        <children xmi:type="notation:DecorationNode" xmi:id="_V5lVY12PEeO8vMUdmvtyog" type="FromMultiplicityLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_V5l8cF2PEeO8vMUdmvtyog" type="FromMultiplicity"/>
+          <element xmi:type="uml:Property" href="ModelFragment_2.efx#_V49DQF2PEeO8vMUdmvtyog?HelloWorld/Package2/Class11/class2?"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_V5lVZF2PEeO8vMUdmvtyog" y="396"/>
         </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_V5l8cV2PEeO8vMUdmvtyog" type="FromRoleLabel" element="_V49DQF2PEeO8vMUdmvtyog">
+        <children xmi:type="notation:DecorationNode" xmi:id="_V5l8cV2PEeO8vMUdmvtyog" type="FromRoleLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_V5l8c12PEeO8vMUdmvtyog" type="FromRole"/>
+          <element xmi:type="uml:Property" href="ModelFragment_2.efx#_V49DQF2PEeO8vMUdmvtyog?HelloWorld/Package2/Class11/class2?"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_V5l8cl2PEeO8vMUdmvtyog" y="-397"/>
         </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_V5mjgF2PEeO8vMUdmvtyog" type="ToQualifierLabel" element="_V5FmIF2PEeO8vMUdmvtyog">
+        <children xmi:type="notation:DecorationNode" xmi:id="_V5mjgF2PEeO8vMUdmvtyog" type="ToQualifierLabel">
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_V5nKkF2PEeO8vMUdmvtyog" type="QualifierCompartment"/>
+          <element xmi:type="uml:Property" href="ModelFragment_2.efx#_V5FmIF2PEeO8vMUdmvtyog?HelloWorld/Package2/%3CAssociation%3E/%3CProperty%3E?"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_V5mjgV2PEeO8vMUdmvtyog" y="-186"/>
         </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_V5nKkV2PEeO8vMUdmvtyog" type="FromQualifierLabel" element="_V49DQF2PEeO8vMUdmvtyog">
+        <children xmi:type="notation:DecorationNode" xmi:id="_V5nKkV2PEeO8vMUdmvtyog" type="FromQualifierLabel">
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_V5nKk12PEeO8vMUdmvtyog" type="QualifierCompartment"/>
+          <element xmi:type="uml:Property" href="ModelFragment_2.efx#_V49DQF2PEeO8vMUdmvtyog?HelloWorld/Package2/Class11/class2?"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_V5nKkl2PEeO8vMUdmvtyog" y="-186"/>
         </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_V5nKlF2PEeO8vMUdmvtyog" type="ToConstraintLabel" element="_V5FmIF2PEeO8vMUdmvtyog">
+        <children xmi:type="notation:DecorationNode" xmi:id="_V5nKlF2PEeO8vMUdmvtyog" type="ToConstraintLabel">
           <children xmi:type="notation:ListCompartment" xmi:id="_V5nxoF2PEeO8vMUdmvtyog" type="ToConstraintCompartment"/>
+          <element xmi:type="uml:Property" href="ModelFragment_2.efx#_V5FmIF2PEeO8vMUdmvtyog?HelloWorld/Package2/%3CAssociation%3E/%3CProperty%3E?"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_V5nKlV2PEeO8vMUdmvtyog" y="1058"/>
         </children>
-        <children xmi:type="notation:DecorationNode" xmi:id="_V5nxoV2PEeO8vMUdmvtyog" type="FromConstraintLabel" element="_V49DQF2PEeO8vMUdmvtyog">
+        <children xmi:type="notation:DecorationNode" xmi:id="_V5nxoV2PEeO8vMUdmvtyog" type="FromConstraintLabel">
           <children xmi:type="notation:ListCompartment" xmi:id="_V5nxo12PEeO8vMUdmvtyog" type="FromConstraintCompartment"/>
+          <element xmi:type="uml:Property" href="ModelFragment_2.efx#_V49DQF2PEeO8vMUdmvtyog?HelloWorld/Package2/Class11/class2?"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_V5nxol2PEeO8vMUdmvtyog" y="1058"/>
         </children>
+        <element xmi:type="uml:Association" href="ModelFragment_2.efx#_V4uZwF2PEeO8vMUdmvtyog?HelloWorld/Package2/%3CAssociation%3E?"/>
         <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V5iSEV2PEeO8vMUdmvtyog" points="[40, 3, -316, -14]$[353, 41, -3, 24]"/>
       </edges>
     </contents>
   </eAnnotations>
-  <packagedElement xmi:type="uml:Class" xmi:id="_rCqGwFxkEeOUK-Y0k6JOKw" name="Class11">
-    <ownedAttribute xmi:id="_V49DQF2PEeO8vMUdmvtyog" name="class2" visibility="private" aggregation="composite" association="_V4uZwF2PEeO8vMUdmvtyog">
-      <type xmi:type="uml:Class" href="ModelFragment_2.efx#_sOmVcFxkEeOUK-Y0k6JOKw?HelloWorld/Package2/Class2?"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V5Dw8F2PEeO8vMUdmvtyog" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V5DJ4F2PEeO8vMUdmvtyog"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_V4uZwF2PEeO8vMUdmvtyog" memberEnd="_V49DQF2PEeO8vMUdmvtyog _V5FmIF2PEeO8vMUdmvtyog">
-    <ownedEnd xmi:id="_V5FmIF2PEeO8vMUdmvtyog" name="" visibility="private" type="_rCqGwFxkEeOUK-Y0k6JOKw" association="_V4uZwF2PEeO8vMUdmvtyog">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V5HbUF2PEeO8vMUdmvtyog" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V5G0QF2PEeO8vMUdmvtyog" value="1"/>
-    </ownedEnd>
-  </packagedElement>
 </uml:Package>
