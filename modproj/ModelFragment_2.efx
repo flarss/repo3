@@ -12,5 +12,21 @@
       <element xsi:nil="true"/>
     </contents>
   </eAnnotations>
+<<<<<<< HEAD
   <packagedElement xmi:type="uml:Class" xmi:id="_sOmVcFxkEeOUK-Y0k6JOKw" name="Miffo"/>
+=======
+  <packagedElement xmi:type="uml:Class" xmi:id="_rCqGwFxkEeOUK-Y0k6JOKw" name="Class11">
+    <ownedAttribute xmi:id="_V49DQF2PEeO8vMUdmvtyog" name="class2" visibility="private" type="_sOmVcFxkEeOUK-Y0k6JOKw" aggregation="composite" association="_V4uZwF2PEeO8vMUdmvtyog">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V5Dw8F2PEeO8vMUdmvtyog" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V5DJ4F2PEeO8vMUdmvtyog"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sOmVcFxkEeOUK-Y0k6JOKw" name="Miffo"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_V4uZwF2PEeO8vMUdmvtyog" memberEnd="_V49DQF2PEeO8vMUdmvtyog _V5FmIF2PEeO8vMUdmvtyog">
+    <ownedEnd xmi:id="_V5FmIF2PEeO8vMUdmvtyog" name="" visibility="private" type="_rCqGwFxkEeOUK-Y0k6JOKw" association="_V4uZwF2PEeO8vMUdmvtyog">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V5HbUF2PEeO8vMUdmvtyog" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V5G0QF2PEeO8vMUdmvtyog" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+>>>>>>> branch 'master' of https://github.com/flarss/repo3.git
 </uml:Package>
