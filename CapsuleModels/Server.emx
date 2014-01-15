@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
+  <uml:Package xmi:id="_XAEdgV2pEeOt86vJ3m6kfQ" name="Server">
+    <eAnnotations xmi:id="_XAEdgl2pEeOt86vJ3m6kfQ" source="uml2.diagrams" references="_XAEdg12pEeOt86vJ3m6kfQ">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_XAEdg12pEeOt86vJ3m6kfQ" type="Class" name="Main">
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+    <eAnnotations xmi:id="_XAEdhF2pEeOt86vJ3m6kfQ" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+      <details xmi:id="_XAEdhV2pEeOt86vJ3m6kfQ" key="uml.rt.activity" value="2"/>
+      <details xmi:id="_XAEdhl2pEeOt86vJ3m6kfQ" key="umldt.rt.activity" value="2"/>
+      <details xmi:id="_XAEdh12pEeOt86vJ3m6kfQ" key="umldt.activity" value="2"/>
+      <details xmi:id="_XAEdiF2pEeOt86vJ3m6kfQ" key="com.ibm.xtools.activities.cppModelingActivity" value="1"/>
+    </eAnnotations>
+    <packageImport xmi:id="_XAEdiV2pEeOt86vJ3m6kfQ">
+      <eAnnotations xmi:id="_XAEdil2pEeOt86vJ3m6kfQ" source="RSA_ElementImport"/>
+      <importedPackage xmi:type="uml:Model" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/RTClasses.emx#_1MnNgJwwEdu4wYUZIlQWkw?RTClasses?"/>
+    </packageImport>
+    <packageImport xmi:id="_XAEdi12pEeOt86vJ3m6kfQ">
+      <eAnnotations xmi:id="_XAEdjF2pEeOt86vJ3m6kfQ" source="RSA_ElementImport"/>
+      <importedPackage xmi:type="uml:Model" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0875BKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes?"/>
+    </packageImport>
+    <packageImport xmi:id="_XAEdjV2pEeOt86vJ3m6kfQ">
+      <eAnnotations xmi:id="_XAEdjl2pEeOt86vJ3m6kfQ" source="RSA_ElementImport"/>
+      <importedPackage xmi:type="uml:Model" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/RTComponents.emx#__QdLdUB2PEd2Vrcc_Gxok_A37F129B1035A?RTComponents?"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_beCdoF2pEeOt86vJ3m6kfQ" name="ServerCapsule">
+      <eAnnotations xmi:id="_beVYll2pEeOt86vJ3m6kfQ" source="uml2.diagrams" references="_beVYl12pEeOt86vJ3m6kfQ">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_beVYl12pEeOt86vJ3m6kfQ" type="Structure" element="_beCdoF2pEeOt86vJ3m6kfQ" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_beVYmF2pEeOt86vJ3m6kfQ" type="StructureDiagramFrame" element="_beCdoF2pEeOt86vJ3m6kfQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_beVYmV2pEeOt86vJ3m6kfQ" type="StructureCompartment"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_beVYml2pEeOt86vJ3m6kfQ" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_beVYm12pEeOt86vJ3m6kfQ" x="793" y="793"/>
+          </children>
+        </contents>
+      </eAnnotations>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ox6ugF2pEeOt86vJ3m6kfQ" name="largeTalk" aggregation="composite" isBehavior="true">
+        <type xmi:type="uml:Collaboration" href="CPPModel.emx#_izUpIF2pEeOt86vJ3m6kfQ?CPPModel/LargeTalk/LargeTalk?"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_beMOoF2pEeOt86vJ3m6kfQ" name="State Machine">
+        <eAnnotations xmi:id="_beVYkF2pEeOt86vJ3m6kfQ" source="uml2.diagrams" references="_beVYkV2pEeOt86vJ3m6kfQ">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_beVYkV2pEeOt86vJ3m6kfQ" type="Statechart" element="_beMOoF2pEeOt86vJ3m6kfQ" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLFrame" xmi:id="_beVYkl2pEeOt86vJ3m6kfQ" type="Statemachine" element="_beMOoF2pEeOt86vJ3m6kfQ" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label" alignment="Horizontal">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_beVYk12pEeOt86vJ3m6kfQ" type="Region" element="_beMOoV2pEeOt86vJ3m6kfQ" verticalAlignment="false"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_beVYlF2pEeOt86vJ3m6kfQ" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_beVYlV2pEeOt86vJ3m6kfQ" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+        <region xmi:id="_beMOoV2pEeOt86vJ3m6kfQ" name="Region1">
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_beMOol2pEeOt86vJ3m6kfQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_beMOo12pEeOt86vJ3m6kfQ" name="State1"/>
+          <transition xmi:id="_beMOpF2pEeOt86vJ3m6kfQ" name="Initial" source="_beMOol2pEeOt86vJ3m6kfQ" target="_beMOo12pEeOt86vJ3m6kfQ">
+            <eAnnotations xmi:id="_beMOpV2pEeOt86vJ3m6kfQ" source="uml2.alias">
+              <details xmi:id="_beMOpl2pEeOt86vJ3m6kfQ" key="Initial"/>
+            </eAnnotations>
+          </transition>
+        </region>
+      </ownedBehavior>
+    </packagedElement>
+    <profileApplication xmi:id="_XAEdj12pEeOt86vJ3m6kfQ">
+      <eAnnotations xmi:id="_XAEdkF2pEeOt86vJ3m6kfQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_XAEdkV2pEeOt86vJ3m6kfQ">
+      <eAnnotations xmi:id="_XAEdkl2pEeOt86vJ3m6kfQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_XAEdk12pEeOt86vJ3m6kfQ">
+      <eAnnotations xmi:id="_XAEdlF2pEeOt86vJ3m6kfQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_XAEdlV2pEeOt86vJ3m6kfQ">
+      <eAnnotations xmi:id="_XAEdll2pEeOt86vJ3m6kfQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://CPP_LANGUAGE_PROFILE/CppPropertySets.epx#_4NlCsGoiEd2IEouRwD2PmA?CppPropertySets/CppPropertySets?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://CPP_LANGUAGE_PROFILE/CppPropertySets.epx#_TNvRgL3gEduxAOGdMW1qJA?CppPropertySets?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_XAEdmF2pEeOt86vJ3m6kfQ">
+      <eAnnotations xmi:id="_XAEdmV2pEeOt86vJ3m6kfQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://RT_PROPERTIES/UMLRealTime.epx#_uTDwIRHVEdu19OChlR9tHg?UMLRealTime?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_XAEdml2pEeOt86vJ3m6kfQ">
+      <eAnnotations xmi:id="_XAEdm12pEeOt86vJ3m6kfQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://RT_PROPERTIES/InteractionProfile.epx#_dDVwwX8wEd2ags_Lr77Vow?InteractionProfile/InteractionProfile?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://RT_PROPERTIES/InteractionProfile.epx#_LyeQ4HnVEd2No7ra0rEeOg?InteractionProfile?"/>
+    </profileApplication>
+  </uml:Package>
+  <Default:DefaultLanguage xmi:id="_XAEdl12pEeOt86vJ3m6kfQ" base_Package="_XAEdgV2pEeOt86vJ3m6kfQ" defaultLanguage="C++"/>
+  <UMLRealTime:Capsule xmi:id="_beMOp12pEeOt86vJ3m6kfQ" base_Class="_beCdoF2pEeOt86vJ3m6kfQ"/>
+  <UMLRealTime:RTPort xmi:id="_oyEfgF2pEeOt86vJ3m6kfQ" isConjugate="true" base_Port="_ox6ugF2pEeOt86vJ3m6kfQ"/>
+</xmi:XMI>
